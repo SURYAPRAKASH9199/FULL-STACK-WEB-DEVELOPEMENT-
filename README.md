@@ -1,59 +1,80 @@
-# 🌐 Full Stack Web Development (Beginner Level)
+# 🌐 Full Stack Web Development Journey
 
-This repository contains my practice work while learning web development from scratch.
-I am currently focusing on building a strong foundation in HTML and gradually moving towards CSS, JavaScript, and full-stack development.
-
----
-
-## 📚 What I’m Learning
-
-* HTML (Structure of Web Pages)
-* Basic Tags and Elements
-* Anchor Tags (Links)
-* Lists (Ordered & Unordered)
-* File Structure & Organization
+> A structured learning repository documenting my progress from HTML basics to Full Stack development.
 
 ---
 
-## 📁 Project Files
+## ✅ Phase 1: HTML — COMPLETED
 
-* `helloworld.html` → Basic HTML structure
-* `anchortag.html` → Practice of anchor (link) tags
-* `list.html` → Working with lists
-* `practiceq1.html` → Practice questions
-* `practiceq2.html` → Additional exercises
+I have successfully completed the **HTML** phase of my web development journey!  
+Below is a summary of all concepts covered:
+
+| File | Concept Covered |
+|------|----------------|
+| `helloworld.html` | Basic HTML structure, DOCTYPE, head & body |
+| `anchortag.html` | Anchor tags, hyperlinks, `href`, `target` |
+| `list.html` | Ordered & unordered lists, nested lists |
+| `form.html` | HTML Forms, input types, labels, buttons |
+| `table_in_html.html` | Tables, `thead`, `tbody`, `tr`, `td`, `colspan` |
+| `subscript_and_superscript.html` | `<sub>` and `<sup>` tags |
+| `basicportfolio.html` | Building a basic portfolio page with HTML |
+| `portfolio_using_semantictag.html` | Semantic HTML5 tags (`<header>`, `<section>`, `<footer>`, `<nav>`) |
+| `practiceq1.html` | Practice exercise set 1 |
+| `practiceq2.html` | Practice exercise set 2 |
 
 ---
 
-## 🎯 Goal
+## 📚 Topics Mastered in HTML
 
-My goal is to become a skilled Full Stack Web Developer by:
-
-* Building real-world projects
-* Improving coding skills daily
-* Learning modern web technologies
+- ✅ Basic HTML structure & boilerplate
+- ✅ Text formatting tags (`<h1>`–`<h6>`, `<p>`, `<strong>`, `<em>`)
+- ✅ Anchor tags & hyperlinks
+- ✅ Ordered & unordered lists
+- ✅ HTML Forms & input elements
+- ✅ Tables with `colspan` and `rowspan`
+- ✅ Subscript & Superscript
+- ✅ Semantic HTML5 elements
+- ✅ Basic Portfolio page using pure HTML
 
 ---
 
-## 🚀 Upcoming Skills
+## 🚀 Current Phase: CSS — In Progress
 
-* CSS (Styling & Layout)
-* JavaScript (Interactivity)
-* Responsive Web Design
-* Frontend Projects
+Now moving into **CSS** to bring my HTML pages to life with styling and layout.
+
+### Upcoming in CSS:
+- [ ] Selectors, Properties & Values
+- [ ] Box Model (margin, padding, border)
+- [ ] Flexbox & Grid Layout
+- [ ] Responsive Design & Media Queries
+- [ ] CSS Animations & Transitions
+- [ ] Styled Portfolio Project
+
+---
+
+## 🗺️ Full Learning Roadmap
+
+```
+HTML  ✅  →  CSS  🔄  →  JavaScript  ⏳  →  React  ⏳  →  Node.js  ⏳  →  Full Stack  🎯
+```
 
 ---
 
 ## 💡 About Me
 
-I am a passionate learner currently exploring web development and improving my coding skills step by step.
+I am **Surya Prakash**, a B.Tech IT student at KIIT University with a passion for both  
+**AI/ML** and **Full Stack Web Development**. This repository tracks my web dev learning journey from scratch.
+
+- 🔗 GitHub: [github.com/SURYAPRAKASH9199](https://github.com/SURYAPRAKASH9199)
+- 💼 LinkedIn: [linkedin.com/in/surya-prakash-08320734a](https://www.linkedin.com/in/surya-prakash-08320734a)
 
 ---
 
 ## 📌 Note
 
-This repository is part of my learning journey, and I will continue updating it with new concepts and projects.
+This repository is actively maintained and updated as I learn new concepts.  
+Each commit reflects real progress — no shortcuts, just consistent daily learning.
 
 ---
 
-⭐ If you find this helpful, feel free to check my progress and give feedback!
+⭐ *If you find this helpful or want to follow my journey, feel free to star the repo and give feedback!*
