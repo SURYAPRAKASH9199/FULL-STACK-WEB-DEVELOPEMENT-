@@ -1,0 +1,57 @@
+/*universal selector ( for all element)*/
+*{
+    color:red;
+}
+
+/*element selectors (for specific HTML elements)*/
+h3{
+    text-decoration:underline;
+}
+
+h3,h1,h2{
+    text-decoration:underline;
+}
+
+/*id selector (for elements with a specific id)*/
+
+#surya {
+background-color:yellow;
+}
+
+/*class selectors (for elements with a specific class)*/
+.practice{
+    color:black;
+}
+
+/*descendant selector (for element that are nested inside another element)*/
+div p{
+    color:blue;
+}
+
+body{
+    background-color:yellow;
+}
+
+/*adjacent sibling selector (for element that are immediately after another element and same sibling )*/
+h1 + p{
+    color:green;
+}
+
+/*child selector (for element that are direct children of another element)*/
+div > h2{
+    color:rgb(239, 12, 171);
+}
+
+/*attribute selector (for element with specific attribute)*/
+button[type="submit"] {
+    background-color: green;
+}
+
+input[type="text"] {
+    background-color: greenyellow;
+}
+
+/*grouping selector (for multiple selectors that share the same styles)*/
+h1, h2, h3 {
+    font-family: Arial, sans-serif;
+}
