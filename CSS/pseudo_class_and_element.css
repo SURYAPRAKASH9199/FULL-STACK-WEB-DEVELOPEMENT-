@@ -1,0 +1,67 @@
+/* pseudo-class selectors (a keyword added to a selector that style an elemenr based on its state and 
+position in the document structure */
+
+/* :hover (for element when the mouse pointer is over it) */
+button:hover {
+    background-color:orange;
+}
+
+h1:hover, h2:hover, h3:hover {
+    color:red;
+    text-decoration: overline;
+}
+
+/* :focus (for element when it is focused) */
+input:focus {
+    background-color: rgb(237, 12, 136);
+}
+
+/* :nth-child(n) (for element that is the nth child of its parent) */
+li:nth-child(2) {
+    color:blue;
+}
+
+/* :active (for element when it is being activated by the user  ex:- button per
+click krne ke baad  green aayega ) */
+button:active {
+   background-color:green;
+}
+
+/* :checked (for input element that are checked) */
+input[type="checkbox"]:checked {
+    background-color:green;
+}
+
+
+
+/* pseudo-element selectors (a keyword added to a selector that style a specific part of an element) */
+/* ::first-letter (for the first letter of an element) */
+p::first-letter {
+    font-size: 100%;
+    color: red;
+}
+
+/* ::first-line (for the first line of an element) */
+p::first-line {
+    font-size: 150%;
+    color: blue;
+}
+
+/* ::selection (for the portion of an element that is selected by the user) */
+p::selection {
+    background-color: yellow;
+    color: black;
+}
+
+/* ::before (for content that is inserted before an element) */
+p::before {
+    content: "para start here: ";
+    color: green;
+}
+
+/* ::after (for content that is inserted after an element) */
+p::after {
+    content: " para end here.";
+    color: green;
+}
+
