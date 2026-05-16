@@ -1,0 +1,19 @@
+button:hover{
+    background-color:green;
+
+}
+
+input{
+    background-color:limegreen;
+}
+
+div{
+    background-color:yellow;
+    color:blue
+
+}
+
+button{
+    background-color:cyan;
+    color:blue;
+}
