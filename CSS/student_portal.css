@@ -1,0 +1,136 @@
+/* Pure page ka padding-margin reset aur basic font */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fcfcfc;
+}
+
+/* 1. WELCOME strip ko navbar jaisa design karne ke liye */
+.one {
+    background-color: #2B3E50;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px;
+    height: 50px;
+}
+
+/* WELCOME text ki styling */
+.one h1 {
+    margin: 0;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+/* Dono buttons ko right side me lane ke liye container auto-margin use karega */
+.one button:nth-of-type(1) {
+    margin-left: auto;
+    margin-right: 15px;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* Logout button ko red box banane ke liye */
+.one button:nth-of-type(2) {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* Logout button ke andar ki image auto align hogi */
+.one button:nth-of-type(2) img {
+    filter: brightness(0) invert(1); /* Image ko white color dene ke liye */
+}
+
+/* Horizontal line ko chhupane ya clean rakhne ke liye */
+hr {
+    margin: 0;
+    border: 0;
+    height: 1px;
+    background: #e0e0e0;
+}
+
+/* 2. Main cards container ko Grid banane ke liye */
+.main {
+    display: grid;
+    grid-template-columns: repeat(3, 240px); /* Ek line me 3 columns (300px width ki) */
+    gap: 20px; /* Cards ke beech ka gap */
+    justify-content: center; /* Screen ke center me rakhne ke liye */
+    padding: 30px 20px;
+}
+
+/* 3. Saare cards (.two, .three, .four, .five, .six) ki common design */
+.two, .three, .four, .five, .six {
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    height: 260px; /* Purane height overrides ko override karne ke liye fix height */
+    box-sizing: border-box;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+/* Card ke andar ki image fit karne ke liye */
+.two img, .three img, .four img, .five img, .six img {
+    width: 100% !important;
+    height: 120px !important;
+    object-fit: contain;
+    padding-top: 10px;
+}
+
+/* Card ke beech ka text (Click here...) */
+.two p:nth-of-type(1), 
+.three p:nth-of-type(1), 
+.four p:nth-of-type(1), 
+.five p:nth-of-type(1), 
+.six p:nth-of-type(1) {
+    font-size: 12px;
+    color: #555;
+    text-align: center;
+    padding: 0 10px;
+    margin: 8px 0;
+    line-height: 1.3;
+}
+
+/* Card ke andar ka <hr> tag divider line */
+.two hr, .three hr, .four hr, .five hr, .six hr {
+    width: 100%;
+    margin: 0;
+}
+
+/* Card ka sabse neeche wala dark title background (Courses, Tests etc) */
+.two p:nth-of-type(2), 
+.three p:nth-of-type(2), 
+.four p:nth-of-type(2), 
+.five p:nth-of-type(2), 
+.six p:nth-of-type(2) {
+    background-color: #2B3E50;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 8px 0;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.two:hover, .three:hover, .four:hover, .five:hover, .six:hover {
+    box-shadow: 0 5px 15px rgba(4, 231, 106, 0.4); /* thoda smooth glow drop shadow */
+    transform: translateY(-5px);
+}
